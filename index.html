@@ -87,16 +87,12 @@
     </header>
 
     <!-- About Section -->
-    <section id="about" class="about-section text-center">
-      <div class="container">
+    <section class="about-section text-center">
+      <div id="about" class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-white mb-4">About</h2>
-            <img
-              src="img/profile.jpg"
-              class="img-fluid about-img mb-5"
-              alt=""
-            />
+            <h2 class="text-white mb-4 py-3">About</h2>
+            <img src="img/work2.jpg" class="img-fluid about-img mb-5" alt="" />
             <p class="text-white-50">
               I am a sophomore at the University Of Washington pursuing a BS in
               Computer Science. I am dedicated, passionate, and a self starter.
@@ -283,21 +279,44 @@
         <!-- Featured Project Row -->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
           <div class="col-xl-7 col-lg-6">
-            <img class="img-fluid mb-3 mb-lg-0 border-bottom" src="gif/members.gif" alt="" />
+            <figure>
+              <img
+                class="img-fluid mb-3 mb-lg-0 border-bottom"
+                src="img/members.png"
+                alt="Static Image"
+                data-alt="gif/members.gif"
+              />
+            </figure>
             <p class="small">Login & Member Functionality</p>
-            <img class="img-fluid mb-3 mb-lg-0 border-bottom" src="gif/drives.gif" alt="" />
+            <figure>
+              <img
+                class="img-fluid mb-3 mb-lg-0 border-bottom"
+                src="img/drives.png"
+                data-alt="gif/drives.gif"
+                alt="Static Image"
+              />
+            </figure>
             <p class="small">Drive Functionality</p>
-            <img class="img-fluid mb-3 mb-lg-0 border-bottom" src="gif/posts.gif" alt="" />
+            <figure>
+              <img
+                class="img-fluid mb-3 mb-lg-0 border-bottom"
+                src="img/posts.png"
+                data-alt="gif/posts.gif"
+                alt="Static Image"
+              />
+            </figure>
             <p class="small">Posts Functionality</p>
           </div>
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
               <h4>UW Hiking Club</h4>
-              <a href="https://hikingclub.herokuapp.com">(Interact with App Here)</a>
+              <a href="https://hikingclub.herokuapp.com"
+                >(Interact with App Here)</a
+              >
               <ul class="text-black-50 mb-0">
                 <li>
-                  Built full stack social media ride share app from scratch
-                  for UW Hiking Club.
+                  Built full stack social media ride share app from scratch for
+                  UW Hiking Club.
                 </li>
                 <li>
                   Conceptualized and designed entire app for mobile and desktop.
@@ -335,20 +354,26 @@
 
         <!-- Project One Row -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="gif/crime.gif" alt="" />
-          </div>
+          <figure class="col-lg-6 mb-3">
+            <img
+              class="img-fluid"
+              src="img/crime.png"
+              data-alt="gif/crime.gif"
+              alt="Static Image"
+            />
+          </figure>
           <div class="col-lg-6">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div
                   class="project-text w-100 my-auto text-center text-lg-left"
                 >
+                  <h4 class="text-white">Seattle Crime Data Analysis</h4>
                   <a
-                    href="https://github.com/wbfulton/UW-Seattle-Crime-Analysis/blob/master/seattle-uw-crime.ipynb"
-                    ><h4 class="text-white">Seattle Crime Data Analysis</h4></a
+                    class="small"
+                    href="https://wbfulton.github.io/UW-Seattle-Crime-Analysis/"
+                    >(view project)</a
                   >
-                  <a class="small" href="https://wbfulton.github.io/UW-Seattle-Crime-Analysis/">(view project)</a>
                   <ul class="mb-0 text-white-50">
                     <li>
                       Built Seattle Crime Report Analys is in Jupyter Notebook
@@ -368,9 +393,25 @@
 
         <!-- Project Two Row -->
         <div class="row justify-content-center no-gutters">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="gif/zip.gif" alt="" />
-            <img class="img-fluid" src="gif/zip2.gif" alt="" />
+          <div class="col-lg-5">
+            <figure>
+              <img
+                class="img-fluid"
+                src="img/zip.png"
+                data-alt="gif/zip.gif"
+                alt="Static Image"
+              />
+            </figure>
+            <figcaption class="small">Encoding Hamlet Text File</figcaption>
+            <figure>
+              <img
+                class="img-fluid"
+                src="img/zip2.png"
+                data-alt="gif/zip2.gif"
+                alt="Static Image"
+              />
+            </figure>
+            <figcaption class="small">Decoding Hamlet Text File</figcaption>
           </div>
           <div class="col-lg-6 order-lg-first">
             <div class="bg-black text-center h-100 project">
@@ -466,7 +507,7 @@
     <!-- Footer -->
     <footer class="bg-black small text-center text-white-50">
       <div class="container">
-        Copyright &copy; wbfulton 2019
+        Copyright &copy; 2019 Will Fulton
       </div>
     </footer>
 
