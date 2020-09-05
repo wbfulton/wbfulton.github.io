@@ -25,6 +25,7 @@
       rel="stylesheet"
     />
 
+    <link href="customStyles.css" rel="stylesheet" />
     <!-- Custom styles for this template -->
     <link href="css/grayscale.min.css" rel="stylesheet" />
   </head>
@@ -53,7 +54,9 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#clubs">Clubs</a>
+              <a class="nav-link js-scroll-trigger" href="#experience"
+                >Experience</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
@@ -62,6 +65,9 @@
               <a class="nav-link js-scroll-trigger" href="#projects"
                 >Projects</a
               >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#clubs">Clubs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -77,7 +83,7 @@
         <div class="mx-auto text-center">
           <h1 class="mx-auto my-0 text-uppercase">Will Fulton</h1>
           <h2 class="text-white-50 mx-auto mt-2 mb-5">
-            Computer Science Student @ the University of Washington
+            Software Engineer at the University of Washington
           </h2>
           <a href="#about" class="btn btn-primary js-scroll-trigger"
             >Who am I?</a
@@ -94,96 +100,74 @@
             <h2 class="text-white mb-4 py-3">About</h2>
             <img src="img/work2.jpg" class="img-fluid about-img mb-5" alt="" />
             <p class="text-white-50">
-              I am a sophomore at the University Of Washington pursuing a BS in
-              Computer Science. I am dedicated, passionate, and a self starter.
-              Over the last summer I taught myself JavaScript, Python, React,
-              Node, Express, SQL, MongoDB, Git, SCRUM, Agile, NumPy,
-              sci-kit-learn and more.
+              I am a unior at the University Of Washington pursuing a BS in
+              Informatics and a minor in mathematics. I am dedicated,
+              passionate, and a self starter. Two summers ago, I taught myself
+              JavaScript, Python, React, Node, Express, SQL, MongoDB, Git,
+              SCRUM, Agile, NumPy, sci-kit-learn and more. This lead to a Tesla
+              Software Engineering internship last summer.
             </p>
             <p class="text-white-50">
-              Outside of tech and clubs, I love to snowboard, hike, backpack,
-              surf, mountain bike, write music, and watch sports.
+              Outside of tech and clubs, I love to backpack, snowboard, surf,
+              mountain bike, write music, and watch sports.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Club Section -->
-    <section class="clubs-section bg-light">
-      <div id="clubs" class="container">
-        <h2 class="text-center py-4">Clubs</h2>
+    <!-- Experience Section -->
+    <section class="skill-section bg-light">
+      <div id="experience" class="container">
+        <h2 class="text-center py-4">Experience</h2>
         <div class="row">
-          <div class="col-md-4 mb-3 mb-md-0">
+          <div class="">
             <div class="card py-4 h-100">
               <div class="card-body text-center">
-                <i class="fas fa-football-ball text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0 pb-3">UW Rugby Club</h4>
-                <hr class="my-4" />
-                <h6 class="text-uppercase m-0">Social Media Chair & Player</h6>
-                <hr class="my-4" />
-                <div class="small text-black-50">
-                  <p>
-                    Official UW Rugby Team. I manage team’s social media on
-                    Facebook, Instagram, which includes working with the Seattle
-                    Seawolves and their players to boost media. I update the
-                    website and write articles to be posted.
-                  </p>
+                <div class="flex-container">
+                  <img class="tesla-logo" src="./tesla-logo.png" />
+                  <div>
+                    <h4 class="text-uppercase m-0">
+                      Tesla | Software Engineering Intern
+                    </h4>
+                    <h4 class="small text-uppercase p-1">
+                      June 8th - September 11th 2020
+                    </h4>
+                  </div>
                 </div>
-                <div class="small text-black-50 pt-2">
-                  <p>
-                    1st Team Starter at Loosehead Prop. Play against PAC-12
-                    Schools and Canadian teams.
-                  </p>
+                <hr class="my-4" />
+                <div class="text-left text-black-80">
+                  <ul>
+                    <li>
+                      Write high-quality, high-performance, maintainable
+                      customer facing code for well over 1 million users
+                    </li>
+                    <li>
+                      Work closely with PM, Dev, and Translation teams to create
+                      and implement innovative product solutions to meet
+                      business objectives
+                    </li>
+                    <li>
+                      Independently worked with PM to deliver features to speed
+                      up one user flow by 10% and another flow by 2-3 minutes
+                    </li>
+                    <li>
+                      Intense independent TDD development using React, Redux,
+                      and Express
+                    </li>
+                    <li>
+                      Communicate with back-end teams and services to implement
+                      robust API integration
+                    </li>
+                    <li>
+                      Implement autonomous UI regression testing architecture
+                    </li>
+                    <li>
+                      Write maintainable and powerful unit, functional,
+                      integration, and regression tests
+                    </li>
+                  </ul>
                 </div>
-              </div>
-              <div class="card-img-bottom">
-                <img class="img-fluid p-2" src="img/rugby.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-guitar text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Happy Medium Music</h4>
-                <hr class="my-4" />
-                <h6 class="text-uppercase m-0">Guitarist & Manager</h6>
-                <hr class="my-4" />
-                <div class="small text-black-50">
-                  <p>
-                    Local Seattle rock band. I play guitar in the band, and we
-                    all write music. We are currently recording new music as you
-                    read this, and we are preparing for many shows to come.
-                  </p>
-                </div>
-              </div>
-              <div class="card-img-bottom">
-                <img class="img-fluid p-2" src="img/band.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-hand-holding-heart text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Theta Delta Chi Fraternity</h4>
-                <hr class="my-4" />
-                <h6 class="text-uppercase m-0">Co-Philanthropy Chair</h6>
-                <hr class="my-4" />
-                <div class="small text-black-50">
-                  <p>
-                    My role is to build social bonds among members and hold
-                    philanthropies. We host Bros. United Philanthropy in which
-                    members become a "big brother" mentor to children with
-                    Austism in Seattle.
-                  </p>
-                </div>
-              </div>
-              <div class="card-img-bottom">
-                <img class="img-fluid p-2" src="img/bros.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -200,20 +184,55 @@
             <div class="card py-4 h-100">
               <div class="card-body text-center">
                 <i class="fas fa-database text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Front-End / Back-End</h4>
+                <h4 class="text-uppercase m-0">Frameworks</h4>
                 <hr class="my-4" />
                 <div class="text-left text-black-80">
                   <u><h4 class="small text-uppercase p-1">Front-End</h4></u>
                   <ul>
                     <li>React.js / Redux</li>
                     <li>Bootstrap</li>
-                    <li>HTML 5 / CSS 3</li>
+                    <li>Cypress</li>
                   </ul>
                   <u><h4 class="small text-uppercase p-1">Back-End</h4></u>
                   <ul>
                     <li>Node.js / Express.js</li>
+                    <li>Jest, Mocha, Chai</li>
                     <li>MongoDB</li>
-                    <li>SQL (MySQL, SQLite)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-globe text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Dev Skills</h4>
+                <hr class="my-4" />
+                <div class="text-left text-black-80">
+                  <u
+                    ><h4 class="small text-uppercase p-1">
+                      Technical Skills
+                    </h4></u
+                  >
+                  <ul>
+                    <li>Excelling in an Agile / Scrum environment</li>
+                    <li>
+                      Independent TDD development in a production environment
+                    </li>
+                    <li>
+                      Working with PM / Design teams to create and implement
+                      product solutions to meet business objectives
+                    </li>
+                  </ul>
+                  <u><h4 class="small text-uppercase p-1">Soft Skills</h4></u>
+                  <ul>
+                    <li>Leadership</li>
+                    <li>Initiative</li>
+                    <li>Passion</li>
+                    <li>Resourcefulness</li>
+                    <li>Flexibility</li>
                   </ul>
                 </div>
               </div>
@@ -232,6 +251,8 @@
                     <li>Java</li>
                     <li>JavaScript (ES6+)</li>
                     <li>Python 3</li>
+                    <li>HTML 5 / CSS 3</li>
+                    <li>SQL (MySQL, SQLite)</li>
                   </ul>
                   <u
                     ><h4 class="small text-uppercase p-1">
@@ -239,30 +260,12 @@
                     </h4></u
                   >
                   <ul>
+                    <li>R / Rmd</li>
                     <li>Pandas</li>
                     <li>NumPy</li>
                     <li>Jupyter Notebook</li>
                     <li>MatPlotLib</li>
                     <li>sci-kit-learn</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-globe text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Soft Skills</h4>
-                <hr class="my-4" />
-                <div class="text-left text-black-80">
-                  <ul>
-                    <li>Leadership</li>
-                    <li>Initiative</li>
-                    <li>Passion</li>
-                    <li>Resourcefulness</li>
-                    <li>Flexibility</li>
                   </ul>
                 </div>
               </div>
@@ -278,16 +281,49 @@
         <h2 class="text-black py-4 text-center">Projects</h2>
         <!-- Featured Project Row -->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-4 col-lg-5">
+            <div
+              class="feature-text-right featured-text text-center text-lg-left"
+            >
+              <h4>Go Global</h4>
+              <a href="https://go-global.vercel.app/home"
+                >(Interact with App Here)</a
+              >
+              <ul class="text-black-50 mb-0">
+                <li>
+                  Designing and developing news platform that aggregates news
+                  events across the world and display them on an interactive
+                  Earth
+                </li>
+                <li>
+                  Working closely with University of Washington professors to
+                  guide the features and target audience of the product
+                </li>
+                <li>
+                  Intense TDD development in Three.js, React, Express, and
+                  MongoDB
+                </li>
+              </ul>
+            </div>
+          </div>
           <div class="col-xl-7 col-lg-6">
             <figure>
               <img
                 class="img-fluid mb-3 mb-lg-0 border-bottom"
-                src="img/members.png"
+                src="img/go-global.png"
                 alt="Static Image"
-                data-alt="gif/members.gif"
+                data-alt="gif/go-global.gif"
               />
             </figure>
-            <p class="small">Login & Member Functionality</p>
+            <p class="small">
+              Alpha Demo. NOTE - lag due to Gifox screen recording
+            </p>
+          </div>
+        </div>
+
+        <!-- Featured Project Row -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-7 col-lg-6">
             <figure>
               <img
                 class="img-fluid mb-3 mb-lg-0 border-bottom"
@@ -305,7 +341,7 @@
                 alt="Static Image"
               />
             </figure>
-            <p class="small">Posts Functionality</p>
+            <p class="small">Post Functionality</p>
           </div>
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
@@ -315,39 +351,63 @@
               >
               <ul class="text-black-50 mb-0">
                 <li>
-                  Built full stack social media ride share app from scratch for
-                  UW Hiking Club.
+                  Independently implemented full stack social media ride share
+                  app
                 </li>
                 <li>
-                  Conceptualized and designed entire app for mobile and desktop.
-                  Once implemented, will have over 200 users.
-                </li>
-                <li>
-                  Implemented using React/Redux, Node/Express, Heroku,
-                  Mongoose/MongoDB, Bootstrap, and Postman for building/testing
-                  API.
+                  Worked closely with consumers to easily allow hikers to create
+                  / join drives, and to allow hikers to build a social network
                 </li>
                 <li>
                   Users have functions including but not limited to:
                   <ul>
-                    <li>
-                      Creating a User and User Profile
-                    </li>
-                    <li>
-                      Viewing all Drives, Posts, Members
-                    </li>
-                    <li>
-                      Posting Drives, Posts, Comments
-                    </li>
-                    <li>
-                      Join/Leave Drives, Like/Unlike Posts
-                    </li>
+                    <li>Creating a User and User Profile</li>
+                    <li>Viewing all Drives, Posts, Members</li>
+                    <li>Posting Drives, Posts, Comments</li>
+                    <li>Join/Leave Drives, Like/Unlike Posts</li>
                     <li>
                       Edit Drives, Delete Drives, Posts, Comments, Profile
                     </li>
                   </ul>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Two Row -->
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <figure>
+              <img
+                class="img-fluid"
+                src="img/merge-sort.png"
+                data-alt="gif/merge-sort.gif"
+                alt="Static Image"
+              />
+            </figure>
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-right"
+                >
+                  <h4 class="text-white">Sorting Visualizer</h4>
+                  <a
+                    class="small"
+                    href="https://wbfulton.github.io/react-sorting-visualizer/"
+                    >(view project)</a
+                  >
+                  <ul class="mb-0 text-white-50">
+                    <li>
+                      Built React application for visualizing sorting algorithms
+                    </li>
+                    <li>Implemented Merge Sort, Bubble Sort, and more</li>
+                  </ul>
+                  <hr class="d-none d-lg-block mb-0 mr-0" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -376,12 +436,11 @@
                   >
                   <ul class="mb-0 text-white-50">
                     <li>
-                      Built Seattle Crime Report Analys is in Jupyter Notebook
+                      Independently built analysis of Seattle crime reports
                     </li>
-                    <li>Pulled data from Seattle.gov in CSV file</li>
                     <li>
-                      Implemented using Pandas, NumPy, MatPlotLib and Jupyter
-                      Notebook
+                      Made impactful decisions on how to display crime data to
+                      communicate the most important findings to the user
                     </li>
                   </ul>
                   <hr class="d-none d-lg-block mb-0 ml-0" />
@@ -390,40 +449,87 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <!-- Project Two Row -->
-        <div class="row justify-content-center no-gutters">
-          <div class="col-lg-6">
-            <figure>
-              <img
-                class="img-fluid"
-                src="img/sorting.png"
-                data-alt="gif/sorting.gif"
-                alt="Static Image"
-              />
-            </figure>
-            <figcaption class="small">Sorting Visualizer Prototype</figcaption>
-          </div>
-          <div class="col-lg-6 order-lg-first">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div
-                  class="project-text w-100 my-auto text-center text-lg-right"
-                >
-                  <h4 class="text-white">Sorting Visualizer</h4>
-                  <a
-                    class="small"
-                    href="https://wbfulton.github.io/sorting-visualizer/"
-                    >(view project)</a
-                  >
-                  <ul class="mb-0 text-white-50">
-                    <li>
-                      Building a sorting visualizer to better understand sorting algorithms.
-                    </li>
-                    <li>Implementing using React and hosting through Github Pages</li>
-                  </ul>
-                  <hr class="d-none d-lg-block mb-0 mr-0" />
+    <!-- Club Section -->
+    <section class="clubs-section bg-light">
+      <div id="clubs" class="container">
+        <h2 class="text-center py-4">Clubs</h2>
+        <div class="row">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-football-ball text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0 pb-3">UW Rugby Club</h4>
+                <hr class="my-4" />
+                <h6 class="text-uppercase m-0">
+                  Vice Captain, Social Media Chair, Player
+                </h6>
+                <hr class="my-4" />
+                <div class="small text-black-50">
+                  <p>
+                    Official UW Rugby Team. Manage all leadership positions,
+                    schedule matches, build social media and relations with the
+                    Seattle Seawolves. I manage team’s social media on Facebook,
+                    Instagram, which includes working with the Seattle Seawolves
+                    and their players to boost media. I update the website and
+                    write articles to be posted.
+                  </p>
                 </div>
+                <div class="small text-black-50 pt-2">
+                  <p>
+                    1st Team Starter at Loosehead Prop. Play against PAC-12
+                    Schools and Canadian teams.
+                  </p>
+                </div>
+              </div>
+              <div class="card-img-bottom">
+                <img class="img-fluid p-2" src="img/rugby.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-hand-holding-heart text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Theta Delta Chi Fraternity</h4>
+                <hr class="my-4" />
+                <h6 class="text-uppercase m-0">Philanthropy Chair</h6>
+                <hr class="my-4" />
+                <div class="small text-black-50">
+                  <p>
+                    I direct the Bros. United Philanthropy in which members
+                    become a "big brother" mentor to children with Austism in
+                    Seattle. This involves working with autism organizations
+                    such as the UW Autism Center and APL in Seattle.
+                  </p>
+                </div>
+              </div>
+              <div class="card-img-bottom">
+                <img class="img-fluid p-2" src="img/bros.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-guitar text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Happy Medium Music</h4>
+                <hr class="my-4" />
+                <h6 class="text-uppercase m-0">Guitarist & Manager</h6>
+                <hr class="my-4" />
+                <div class="small text-black-50">
+                  <p>
+                    Local Seattle rock band. I play guitar in the band, and we
+                    all write music.
+                  </p>
+                </div>
+              </div>
+              <div class="card-img-bottom">
+                <img class="img-fluid p-2" src="img/band.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -501,9 +607,7 @@
 
     <!-- Footer -->
     <footer class="bg-black small text-center text-white-50">
-      <div class="container">
-        Copyright &copy; 2019 Will Fulton
-      </div>
+      <div class="container">Copyright &copy; 2019 Will Fulton</div>
     </footer>
 
     <!-- Bootstrap core JavaScript -->
